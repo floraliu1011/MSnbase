@@ -1,5 +1,9 @@
 # MSnbase 2.7
 
+## Changes in version 2.7.2
+- Fixed the inconsistent default values in plot.spectrum - see
+  [#350](https://github.com/lgatto/MSnbase/issues/350) <2018-06-27 Wed>
+
 ## Changes in version 2.7.1
 - Handle files without any spectra - see
   [#342](https://github.com/lgatto/MSnbase/issues/342)
