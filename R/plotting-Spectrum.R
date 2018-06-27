@@ -4,7 +4,7 @@
 ##' @param relative relative (or absolute) deviation
 ##' @param ... additional paramters passed to \code{.plotSpectrumVsSpectrum}.
 ##' @noRd
-plotSpectrumVsSpectrum <- function(spectra, tolerance=0.1,
+plotSpectrumVsSpectrum <- function(spectra, tolerance=25e-6,
                                    relative=FALSE,
                                    ...) {
   common <- lapply(list(c(1, 2), c(2, 1)), function(x) {
